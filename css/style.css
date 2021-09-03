@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-h2, h5, p {
-  color: rgb(59, 59, 59)
-}
-
 body {
   font-family: 'Red Hat Display', sans-serif;
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: hsl(225, 100%, 94%);
 }
 
@@ -25,8 +25,8 @@ button:hover {
 }
 
 .card {
-  width: 350px;
-  height: 550px;
+  width: 400px;
+  height: 620px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -52,15 +52,18 @@ button:hover {
   padding: 20px 35px;
 }
 
-.content h2 {
+.content h1 {
   font-weight: 900;
   padding-top: 15px;
+  color: rgb(59, 59, 59)
 }
 
 .content p {
-  font-size: 13px;
+  font-size: 16px;
   padding: 15px;
   opacity: .6;
+  color: rgb(59, 59, 59);
+  line-height: 1.5rem;
 }
 
 .content .plan {
@@ -75,15 +78,17 @@ button:hover {
 
 .plan .plan-description {
   display: flex;
+  line-height: 1.5rem;
+  color: rgb(59, 59, 59);
+  margin-left: 10px;
 }
 
 .plan-description .plan-price {
-  font-size: 13px;
+  font-size: 16px;
   opacity: .6;
 }
 
 .plan img {
-  width: 40px;
   margin-right: 10px;
 }
 
