@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/pure-html-and-css-hKA3cRwVW)
+- Live Site URL: [](https://yevavin.github.io/order-summary-component/index.html)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [Add your name here](https://github.com/yevavin)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yevavin)
+- GitHub - [](https://github.com/yevavin)
+- Frontend Mentor - [](https://www.frontendmentor.io/profile/yevavin)
