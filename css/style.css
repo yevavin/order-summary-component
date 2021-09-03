@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, h5, p {
+  color: rgb(59, 59, 59)
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+button {
+  font-family: inherit;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.card {
+  width: 350px;
+  height: 550px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px #ccc ;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 35px;
+}
+
+.content h2 {
+  font-weight: 900;
+  padding-top: 15px;
+}
+
+.content p {
+  font-size: 13px;
+  padding: 15px;
+  opacity: .6;
+}
+
+.content .plan {
+  width: 100%;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.plan .plan-description {
+  display: flex;
+}
+
+.plan-description .plan-price {
+  font-size: 13px;
+  opacity: .6;
+}
+
+.plan img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.plan .change-btn {
+  background-color: hsl(225, 100%, 98%);
+  font-weight: bold;
+  color: rgb(62, 62, 241);
+  text-decoration: underline;
+  transition: ease all .3s;
+}
+
+.plan .change-btn:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+.content .proceed-btn {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 0;
+  border-radius: 10px;
+  margin-top: 25px;
+  box-shadow: 0px 15px 20px #ccc;
+  transition: ease all .3s;
+}
+
+.content .proceed-btn:hover {
+  opacity: .8;
+}
+
+.content .cancel-btn {
+  margin-top: 25px;
+  background-color: #fff;
+  opacity: .6;
+  font-weight: bold;
+}
+
+.content .cancel-btn:hover {
+  opacity: 1;
+  color: hsl(223, 47%, 23%);
+  transition: ease all .3s;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 375px) {
+  .card {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (max-width: 335px) {
+  .content .plan {
+    flex-direction: column;
+  }
+}
