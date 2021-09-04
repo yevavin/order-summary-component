@@ -13,6 +13,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
 }
 
 button {
@@ -33,14 +34,8 @@ button:hover {
   transform: translate(-50%, -50%);
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0px 15px 20px #ccc ;
-}
-
-.hero-img img {
-  width: 100%;
-  height: auto;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;;
+  box-shadow: 0px 15px 25px hsl(224, 23%, 55%, .7);
+  overflow: hidden;
 }
 
 .content {
@@ -53,22 +48,21 @@ button:hover {
 }
 
 .content h1 {
+  font-size: 1.8rem;
   font-weight: 900;
   padding-top: 15px;
-  color: rgb(59, 59, 59)
+  color: hsl(223, 47%, 23%)
 }
 
 .content p {
-  font-size: 16px;
   padding: 20px;
-  opacity: .6;
-  color: rgb(59, 59, 59);
+  color: hsl(224, 23%, 55%);
   line-height: 1.7rem;
 }
 
-.content .plan {
+.content .plan-box {
   width: 100%;
-  padding: 30px 20px;
+  padding: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,31 +70,37 @@ button:hover {
   border-radius: 10px;
 }
 
-.plan .plan-description {
+.plan-box .plan-box-left {
   display: flex;
   color: rgb(59, 59, 59);
   margin-left: 10px;
 }
 
-.plan-description .plan-price {
-  font-size: 16px;
-  line-height: 1.7rem;
-  opacity: .6;
+.plan-box .plan-box-left h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
 }
 
-.plan img {
-  margin-right: 10px;
+.plan-box .plan-box-left p {
+  padding: 0;
+  color: hsl(224, 23%, 55%);
 }
 
-.plan .change-btn {
+.plan-box-left div {
+  margin-left: 15px;
+}
+
+.plan-box .change-btn {
+  font-size: .9rem;
   background-color: hsl(225, 100%, 98%);
-  font-weight: bold;
-  color: rgb(62, 62, 241);
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
   text-decoration: underline;
   transition: ease all .3s;
 }
 
-.plan .change-btn:hover {
+.plan-box .change-btn:hover {
   text-decoration: none;
   opacity: .8;
 }
@@ -109,11 +109,11 @@ button:hover {
   width: 100%;
   background-color: hsl(245, 75%, 52%);
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
   padding: 15px 0;
   border-radius: 10px;
   margin-top: 25px;
-  box-shadow: 0px 15px 20px #ccc;
+  box-shadow: 0px 15px 20px hsl(224, 23%, 55%, .7);
   transition: ease all .3s;
 }
 
@@ -122,20 +122,18 @@ button:hover {
 }
 
 .content .cancel-btn {
+  font-size: .9rem;
   margin-top: 30px;
   background-color: #fff;
-  opacity: .6;
-  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  transition: ease all .3s;
 }
 
 .content .cancel-btn:hover {
   opacity: 1;
   color: hsl(223, 47%, 23%);
-  transition: ease all .3s;
 }
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 /* MEDIA QUERIES */
 
@@ -146,7 +144,7 @@ button:hover {
   }
 }
 @media (max-width: 335px) {
-  .content .plan {
+  .content .plan-box {
     flex-direction: column;
   }
 }
