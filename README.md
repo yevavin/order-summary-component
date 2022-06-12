@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/pure-html-and-css-hKA3cRwVW)
-- Live Site URL: [](https://yevavin.github.io/order-summary-component/index.html)
+- Solution URL: [https://www.frontendmentor.io/solutions/pure-html-and-css-hKA3cRwVW](https://www.frontendmentor.io/solutions/pure-html-and-css-hKA3cRwVW)
+- Live Site URL: [https://yevavin.github.io/order-summary-component/index.html](https://yevavin.github.io/order-summary-component/index.html)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [](https://github.com/yevavin)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/yevavin)
+- GitHub - [@yevavin](https://github.com/yevavin)
+- Frontend Mentor - [@yevavin](https://www.frontendmentor.io/profile/yevavin)
